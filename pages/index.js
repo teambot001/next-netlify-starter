@@ -11,12 +11,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Valide su Información" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
-          <script>
-            window.location = 'https://google.com';
-          </script>
+          Siga el enlace para continuar<br>
+          <a href="https://google.com">Continuar</a>
         </p>
       </main>
 
